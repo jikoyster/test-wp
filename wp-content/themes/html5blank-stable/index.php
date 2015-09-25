@@ -1,0 +1,32 @@
+<?php get_header(); ?>
+
+	<main role="main">
+		<!-- section -->
+		<section>
+
+	<div class="row">
+		<div class="span8">
+			<h1>Sales</h1>
+		</div>
+		<div class="span4">
+			<h1>Orders</h1>
+		</div>
+	</div>
+
+	
+	<!--
+			<h1><?php //_e( 'Latest Posts', 'html5blank' ); ?></h1>
+
+			<?php //get_template_part('loop'); ?>
+
+			<?php //get_template_part('pagination'); ?>
+-->
+		</section> 
+		<!-- /section -->
+
+
+	</main>
+
+<?php get_sidebar(); ?>
+
+<?php get_footer(); ?>

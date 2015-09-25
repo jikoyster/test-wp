@@ -1,0 +1,24 @@
+/*
+Theme Name: ims
+*/ 
+@import url(css/style.css);
+
+@font-face{
+	font-family: MontLight;
+	src: url('fonts/Montserrat-UltraLight.otf');
+}
+
+@font-face{
+	font-family: MontReg;
+	src: url('fonts/Montserrat-Regular.otf');
+}
+
+@font-face{
+	font-family: MontBlack;
+	src: url('fonts/Montserrat-Black.otf');
+}
+
+html, body{
+	font-family: MontReg;
+}
+

@@ -1,0 +1,43 @@
+$baseColor: #004a80;
+
+$baseFontL: MontLight;
+$baseFont: MontReg;
+$baseFontB: MontBlack;
+
+.clr{
+	clear: both;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+}
+
+header{
+	padding: 0 30px;
+	border-top: 5px solid $baseColor;
+
+	#sitelogo{
+		float: left;
+		text-align: right;
+		font-size: 2em;
+		font-family: $baseFontB;
+		color: $baseColor;
+	}//#sitelogo
+
+	nav{
+		display: inline-block;
+		background: $baseColor;
+		margin-left: 20px;
+
+		ul{
+			margin: 0;
+			padding: 0;
+
+			li{
+				display: inline-block;
+			}
+		}
+	}//nav
+}//header

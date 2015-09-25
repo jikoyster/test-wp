@@ -1,0 +1,114 @@
+.welcomemsg{
+	font: 14px MontLight;
+}
+main{
+	font-family: MontLight;
+}
+
+header .logo{
+	font-family: MontBlack;
+	font-size: 2em;
+	text-align: right;
+	margin-right: 1px;
+	padding: 10px 20px;
+	line-height: 30px;
+	background-color: #004a80;
+}
+	header .logo a{ 
+		color: #fff; 
+		text-decoration: none; }
+	header .logo a:hover{ 
+		color: #efefef; }
+
+nav{
+	background: #004a80;
+	display: inline-block;
+    padding: 0 30px;
+    -webkit-transition: all 2s;
+	transition: all 2s;
+}
+nav ul{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+	nav ul li{
+		width: 150px;
+		padding: 10px 0;
+		font-family: MontReg;
+		list-style: none;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	nav li a{ color: #fff;}
+	nav li a:hover{ color: #efefef;}
+
+	nav ul li > ul{
+		z-index: 999;
+		position: absolute;
+		top: 40px;
+		-webkit-transition: all 500ms;
+		transition: all 500ms;
+	}
+	nav ul ul li{
+		background: #004a80;
+		opacity: .99;
+		
+		display: block;
+		position: relative;
+	}
+		nav ul ul li a{
+			display: block;
+			width: 150px;
+		}
+		nav ul ul li a:hover{
+			text-decoration: underline;
+		}
+	nav ul ul li > ul{
+		position: absolute;
+		top: 0;
+		left: 150px;
+		border-left: 1px solid #fff;
+	}
+	nav ul ul > li a{
+		padding: 0 10px;
+	}
+	nav ul li > ul{
+		visibility: hidden;
+		opacity: 0;
+	}
+	nav ul li:hover > ul{
+		visibility: visible;
+		opacity: 1;
+	}
+	
+
+.warehouse_list *{
+	font-size: 1.15em;
+}
+
+/**PAGE****/
+.page label{
+	font-family: MontReg;
+	display: inline-block;
+	width: 150px;
+}
+.page label + span input{
+	font-family: MontReg;
+	height: 29px;
+	margin-right: 10px;
+}
+.page input[type="checkbox"]{
+	margin: 0;
+}
+.page table thead th{
+	font-size: 16px;
+}
+.page table tbody tr td{
+	font-size: 14px;
+	text-align: center;
+}
+.page input.medium{
+	height: 29px;
+	font-size: 1.2em !important;
+}

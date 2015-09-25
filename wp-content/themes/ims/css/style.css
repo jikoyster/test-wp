@@ -1,0 +1,28 @@
+.clr {
+  clear: both; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #efefef; }
+
+header {
+  padding: 0 30px;
+  border-top: 5px solid #004a80; }
+  header #sitelogo {
+    float: left;
+    text-align: right;
+    font-size: 2em;
+    font-family: MontBlack;
+    color: #004a80; }
+  header nav {
+    display: inline-block;
+    background: #004a80;
+    margin-left: 20px; }
+    header nav ul {
+      margin: 0;
+      padding: 0; }
+      header nav ul li {
+        display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
